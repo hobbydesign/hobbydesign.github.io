@@ -1,17 +1,17 @@
 @font-face {
-	font-family: 'MinionCyrillicRegular';
-	src: url('../fonts/minion-webfont.eot');
-	src: local('☺'), url('../fonts/minion-webfont.woff') format('woff'), url('../fonts/minion-webfont.ttf') format('truetype'), url('../fonts/minion-webfont.svg#webfontSzGmlskh') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'MinionCyrillicRegular';
+  src: url('../fonts/minion-webfont.eot');
+  src: local('☺'), url('../fonts/minion-webfont.woff') format('woff'), url('../fonts/minion-webfont.ttf') format('truetype'), url('../fonts/minion-webfont.svg#webfontSzGmlskh') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'LeagueGothicRegular';
-	src: url('../fonts/league_gothic-webfont.eot');
-	src: local('☺'), url('../fonts/league_gothic-webfont.woff') format('woff'), url('../fonts/league_gothic-webfont.ttf') format('truetype'), url('../fonts/league_gothic-webfont.svg#webfont6hjYZ5gb') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'LeagueGothicRegular';
+  src: url('../fonts/league_gothic-webfont.eot');
+  src: local('☺'), url('../fonts/league_gothic-webfont.woff') format('woff'), url('../fonts/league_gothic-webfont.ttf') format('truetype'), url('../fonts/league_gothic-webfont.svg#webfont6hjYZ5gb') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 #home .concept{font-size:2.5em;}
@@ -30,7 +30,7 @@
 #home #jumper{margin-right:10px;float:left;width:400px;}
 #home #navigation{width:550px;float:left;margin-top:20px;text-align:right;}
 #intro #how-high a{margin-left:auto;margin-right:auto;margin-top:5em;}
-#intro #how-high a.rollover{display:block;background: url('../images/how-high.png') no-repeat top left;width:960px;height:297px;}
+#intro #how-high a.rollover{display:block;background: url('/img/how-high.png') no-repeat top left;width:960px;height:297px;}
 #intro #how-high a.rollover:hover {background-position: bottom;}
 #intro #how-high span{display:none;}
 #intro a,#intro a:visited{color:#1161A5;text-decoration:none;}
@@ -62,7 +62,7 @@
 .concept{font-family:MinionCyrillicRegular;font-size:2.5em;margin-bottom:0;color:#1161A5;}
 .floatL{float:left;margin-top:20px;}
 .project{margin-bottom:1em;}
-body{background:url(../images/clouds.jpg) top fixed repeat}
+body{background:url(/img/clouds.jpg) top fixed repeat}
 h1.concept{font-weight:400;font-size:2em;}
 li{list-style-type:none;margin:0;padding:0;}
 p.first{font-family:MinionCyrillicRegular;line-height:1.2em;padding-right:0.5em;color:#1161A5;font-size:1.4em;}
@@ -91,5 +91,5 @@ ul{margin:0;padding:0;}
 #whyme #navigation #logos{text-align:left;font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;margin-bottom:10px;}
 #whyme #navigation #logos p{margin-bottom: 10px;}
 #whyme #logos ul#previous{margin-left:50px;margin-bottom:20px;}
-#whyme #logos ul#previous li{list-style-image: url(../images/bullet.png);padding-left:5px;}
+#whyme #logos ul#previous li{list-style-image: url(/img/bullet.png);padding-left:5px;}
 #whyme #head{position:fixed;margin-left:100px;z-index:-1;}
