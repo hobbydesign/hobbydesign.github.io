@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'MinionCyrillicRegular';
+	src: url('../fonts/minion-webfont.eot');
+	src: local('☺'), url('../fonts/minion-webfont.woff') format('woff'), url('../fonts/minion-webfont.ttf') format('truetype'), url('../fonts/minion-webfont.svg#webfontSzGmlskh') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('../fonts/league_gothic-webfont.eot');
+	src: local('☺'), url('../fonts/league_gothic-webfont.woff') format('woff'), url('../fonts/league_gothic-webfont.ttf') format('truetype'), url('../fonts/league_gothic-webfont.svg#webfont6hjYZ5gb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#home .concept{font-size:2.5em;}
+#contact #jumping,#home #jumping{width:300px;}
+#contact #this-high{font-size:.6em;margin-left:-10px;}
+#container{margin-left:auto;margin-right:auto;width:960px;}
+#crowd{position:fixed;left:50%;bottom:-5px;margin-left:-400px;z-index:-1;}
+#design h1{color:#1161A5;margin-bottom:0;}
+#design h2,#this-high h1,#design p:last-child{margin-bottom:0;}
+#design p.first{margin-bottom:0;color:#1161A5;font-size:1.6em;}
+#design p{font-family:MinionCyrillicRegular;color:#666;margin-bottom:10px;font-size:1.2em;line-height:1.2em;}
+#design{float:left;margin-bottom:30px;text-align:left;}
+#footer li:first-child{margin-left:0;padding-left:0;border-left:none;}
+#footer li{font-family:MinionCyrillicRegular;font-size:1em;border-left:2px solid #ADC060;display:inline;margin-left:10px;padding-left:10px;color:#666;}
+#footer{text-align:left;margin-bottom:3em;height:auto;}
+#home #jumper{margin-right:10px;float:left;width:400px;}
+#home #navigation{width:550px;float:left;margin-top:20px;text-align:right;}
+#intro #how-high a{margin-left:auto;margin-right:auto;margin-top:5em;}
+#intro #how-high a.rollover{display:block;background: url('../images/how-high.png') no-repeat top left;width:960px;height:297px;}
+#intro #how-high a.rollover:hover {background-position: bottom;}
+#intro #how-high span{display:none;}
+#intro a,#intro a:visited{color:#1161A5;text-decoration:none;}
+#intro a:hover,#intro a:active{color:#ADC060;}
+#links{float:right;}
+#logo img{display:block;margin-left:auto;margin-right:auto;margin-bottom:1em;}
+#logos{margin-top:30px;margin-bottom:30px;}
+#navigation ul#links li a.active{color:#1161A5;}
+#navigation ul#links li a span.hover{position:relative;}
+#navigation ul#links li a.active span.hovered { position: relative; top: -15px; }
+#navigation ul#links li a{font-family:LeagueGothicRegular;color:#ADC060;text-decoration:none;padding-left:10px;border-left:2px solid #1161A5;}
+#navigation ul#links li a:hover,#navigation li:active{color:#1161A5;}
+#navigation ul#links li:first-child a{border-left:none;}
+#navigation ul#links li{float:left;cursor:pointer;display:block;font-size:1.5em;margin-left:10px;color:#ffd;text-decoration:none;}
+#port-crowd{z-index:-1;margin-bottom:-5px;margin-top:20px;}
+#portfolio #footer{margin-top:3em;float:right;}
+#portfolio #jumper{margin-right:10px;float:left;width:450px;}
+#portfolio #logo img{display:block;margin-right:0;}
+#portfolio #logo{margin-top:1em;float:right;}
+#portfolio #navigation{margin-top:20px;float:left;width:500px;text-align:right;}
+#projects .last{margin-bottom:5em;}
+#projects .side{float:left;text-align:right;width:200px;}
+#projects a:hover,#projects a:active,#projects a:visited{color:#1161A5;text-decoration:underline;}
+#projects a{text-decoration:none;font-weight:700;color:#ADC060;font-size:2em;margin-bottom:.2em;margin-top:.2em;}
+#projects img:hover,#projects img:active{outline:2px solid #ADC060;}
+#see-more{margin-left:100px;text-align:center;font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;}
+#this-high{float:left;margin-top:2.5em;margin-left:-150px;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.concept{font-family:MinionCyrillicRegular;font-size:2.5em;margin-bottom:0;color:#1161A5;}
+.floatL{float:left;margin-top:20px;}
+.project{margin-bottom:1em;}
+body{background:url(../images/clouds.jpg) top fixed repeat}
+h1.concept{font-weight:400;font-size:2em;}
+li{list-style-type:none;margin:0;padding:0;}
+p.first{font-family:MinionCyrillicRegular;line-height:1.2em;padding-right:0.5em;color:#1161A5;font-size:1.4em;}
+ul{margin:0;padding:0;}
+#execution h1{color:#1161A5;margin-bottom:0;}
+#execution h2,#this-high h1,#design p:last-child{margin-bottom:0;}
+#execution p.first{margin-bottom:0;color:#1161A5;font-size:1.6em;}
+#execution p{font-family:MinionCyrillicRegular;color:#666;margin-bottom:10px;font-size:1.2em;line-height:1.2em;}
+#execution{float:left;margin-bottom:10px;text-align:left;}
+#contact-info{margin-left:175px;margin-top:-100px;font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;}
+#contact-info img{margin-bottom:10px;}
+#contact-info p#call{margin-top:2em;margin-bottom:10px;}
+#contact-info span{color:#333;font-family:LeagueGothicRegular;}
+#contact-info p#email{margin-top:25px;}
+#contact-info p#email a{text-decoration:none;color:#1161A5;}
+#navigation #heart{text-align:center;margin-left:75px;font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;margin-top:10px;}
+#fingers{z-index:-1;margin-bottom:-5px;margin-top:20px;margin-left:100px;}
+#whyme #footer{margin-top:3em;float:right;}
+#whyme #jumper{margin-right:60px;float:left;width:500px;}
+#whyme #logo img{display:block;margin-right:0;}
+#whyme #logo{margin-top:1em;float:right;}
+#whyme #navigation{margin-top:20px;float:left;width:400px;text-align:right;}
+#whyme #jumper h1{margin-top: 40px;}
+#whyme #jumper p{font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;margin-bottom:10px;}
+#whyme #jumper p#get-hobby{color:#1161A5;}
+#whyme #navigation #logos{text-align:left;font-family:MinionCyrillicRegular;font-size:1.2em;line-height:1.2em;color:#666;margin-bottom:10px;}
+#whyme #navigation #logos p{margin-bottom: 10px;}
+#whyme #logos ul#previous{margin-left:50px;margin-bottom:20px;}
+#whyme #logos ul#previous li{list-style-image: url(../images/bullet.png);padding-left:5px;}
+#whyme #head{position:fixed;margin-left:100px;z-index:-1;}
