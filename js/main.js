@@ -13,22 +13,26 @@ $(document).ready(function() {
     $('#intro').hide();
   });
 
-  if ($("a.work").length) {
+  if ($("a.js-work").length) {
     $(".hide").hide();
-    $("a[rel='work']").fancybox({
-      'autoScale' : 'false',
-      'titlePosition' : 'inside',
-      'transitionIn'  : 'elastic',
+    $("a.js-work").fancybox({
+      helpers: {
+        title: {
+          type: 'inside'
+        }
+      }
     });
   }
 
-  if ($("a.logos").length) {
+  if ($("a.js-logos").length) {
     $(".hide").hide();
-    $("a[rel='logos']").fancybox({
-      'autoScale' : 'false',
-      'titlePosition' : 'inside',
+    $("a.js-logos").fancybox({
+      helpers: {
+        title: {
+          type: 'inside'
+        }
+      }
     });
-
   }
 
   if ($("#whyme #head").length) {
