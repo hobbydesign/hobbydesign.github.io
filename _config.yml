@@ -1,0 +1,15 @@
+markdown: kramdown
+permalink: pretty
+relative_permalinks: false
+
+timezone: UTC
+
+kramdown:
+  auto_ids: false
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - CNAME
+
+url: http://getahobbydesign.com
